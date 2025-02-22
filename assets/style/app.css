@@ -1,0 +1,79 @@
+/* Background setiap section */
+.section1 {
+    width: 100vw; 
+    padding: 250px 0; 
+    background-color: rgb(228, 219, 207);
+}
+
+.section2 {
+    background-color: #f3f4f5;
+    padding: 80px 0;
+}
+
+.section2 h1 {
+    padding-bottom: 40px; /* Sesuaikan nilai ini untuk menaikkan tulisan */
+}
+
+.section3 {
+    background-color: #d1e7dd;
+    padding: 80px 0;
+}
+.section3 h1 {
+    padding-bottom: 40px;
+}
+
+/* Styling Profile */
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 250px;
+    border: 5px solid white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile h5 {
+    transform: translateY(-5px);
+}
+
+/* Text styling */
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Section 4: Informasi Lengkap */
+.section4 {
+    background-color: #e9ecef;
+    padding: 80px 0;
+}
+
+.section4 h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Section 5: Keterampilan & Organisasi */
+.section5 {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.section5 h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
